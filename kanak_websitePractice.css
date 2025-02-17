@@ -1,0 +1,295 @@
+/* Universal reset for all elements to remove default margin and padding and set a default font */
+*{
+    margin: 0px; /* Removes margin from all elements */
+    padding: 0px; /* Removes margin from all elements */
+    font-family: Century; /* Sets the default font to 'Century' */
+}
+
+/* Header section styling */
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./hawaii\ beach\ 2.jpg);  /* Sets a background image with a gradient overlay */
+    height: 100vh; /* Makes the header take up the full height of the viewport */
+    background-size: cover; /* Ensures the background image covers the entire header */
+    background-position: center; /* Centers the background image */
+    min-height: 150px; /* Ensures the header has at least 150px height */
+}
+
+/* Styling for unordered list (navigation links) */
+ul{
+    float: right; /* Positions the navigation menu to the right */
+    list-style: none; /* Removes bullet points from list items */
+    margin-top: 30px; /* Adds top margin to the list */
+    min-height: 300px; /* Sets a minimum height for the navigation menu */
+    margin-right: 40px; /* Adds right margin to the list */
+    font-size: 17px; /* Sets the font size for the links */
+}
+
+/* Styling for each list item in the navigation */
+ul li{
+    display: inline-block; /* Displays list items horizontally */
+}
+
+/* Styling for anchor (link) tags inside list items */
+ul li a{
+    text-decoration: none; /* Removes underline from links */
+    color: #fff; /* Sets the link color to white */
+    padding: 5px 20px; /* Adds padding inside the links */
+    border: 1px solid transparent; /* Adds a transparent border around the links */
+    transition: 0.5 ease; /* Adds a smooth transition effect */
+}
+
+/* Styling when hovering over the navigation links */
+ul li a:hover{
+    color: rgb(205, 248, 176); /* Changes link color when hovered */
+    background-color: transparent; /* Keeps the background transparent */
+}
+
+/* Styling for the active navigation link (e.g., Home) */
+ul li.active a{
+    color: rgb(241, 120, 239); /* Changes color for the active link */
+    background-color: transparent; /* Keeps background transparent */
+    text-decoration: none; /* Removes underline from active link */
+}
+
+/* Styling for visited links */
+ul li a:visited{
+    color: rgb(101, 215, 243); /* Changes color for visited links */
+    background-color: transparent; /* Keeps background transparent */
+    text-decoration: underline; /* Underlines visited links */
+ }
+
+ /* Logo styling */
+.logo img{
+    position: absolute; /* Positions the logo absolutely */
+    top: 20%; /* Positions the logo 20% from the top of the page */
+    left: 5%; /* Positions the logo 5% from the left of the page */
+    width: 10%; /* Sets the logo width to 10% of the page width */
+    height: auto;  /* Keeps the logo's aspect ratio */
+    opacity: 0.7; /* Makes the logo slightly transparent */
+}
+
+/* Styling for the music button */
+#music{
+    position: absolute; /* Positions the music button absolutely */
+    bottom: 10%; /* Positions it 10% from the bottom */
+    text-align: left;  /* Aligns text to the left inside the button */
+    border-color: #4b1b99; /* Sets the border color */
+    border-radius: 5px; /* Rounds the corners of the button */
+    left: 20%; /* Positions the button 20% from the left */
+}
+
+/* Styling for the animated "Aloha" logo */
+#aloha{
+    position: absolute; /* Positions the image absolutely */
+    height: 6%; /* Sets the height of the image to 6% */
+    width: 7%;  /* Sets the width of the image to 7% */
+    right: 115%; /* Positions the image off the right of the page */
+    bottom: 46%; /* Positions it 46% from the bottom */
+    opacity: 0.8; /* Makes the image slightly transparent */
+}
+
+/* Styling for the dessert image */
+#dessert{
+    height: 20%; /* Sets the image height to 20% */
+    width: 60%; /* Sets the image width to 60% */
+    margin-top: 0%; /* Sets the top margin to 0 */
+    margin-left: -10%; /* Shifts the image 10% to the left */
+    border: #4b1b99; /* Adds a border with the specified color */
+    border-radius: 20px; /* Rounds the corners of the border */
+    border-style: double; /* Makes the border double-lined */
+    opacity: 0.7; /* Makes the image slightly transparent */
+}
+
+/* Main content container */
+.main{
+    max-width: 1250px; /* Sets the maximum width of the container to 1250px */
+    margin: auto; /* Centers the container horizontally */
+}
+
+
+/* Title section styling */
+.title{
+    position: absolute; /* Positions the title absolutely */
+    top: 30%; /* Positions the title 30% from the top */
+    left: 47%; /* Positions the title 47% from the left */
+    transform: translateX(-10%); /* Adjusts the title's horizontal position */
+}
+
+/* Title text styling */
+.title h1{
+    color: rgb(214, 167, 241); /* Sets the text color */
+    font-size: 75px; /* Sets the font size */
+    border-radius: 10%; /* Rounds the corners of the title */
+    text-align: left; /* Aligns the text to the left */
+    font-stretch: extra-expanded; /* Stretches the font */
+    transform: translate(-50%,-50%); /* Centers the title */
+    font-family: cursive; /* Sets the font to cursive */
+    opacity: 0.9; /* Makes the text slightly transparent */
+}
+
+/* General styling for all h3 elements (headings) */
+h3{
+    color: rgb(130, 231, 231); /* Sets the text color */
+    font-family: serif; /* Sets the font to serif */
+    font-size: 22px; /* Sets the font size */
+    font-weight: 200; /* Sets the font weight */
+    margin-top: 10%; /* Adds top margin */
+}
+
+/* Styling for the hours section */
+.hours h3{
+    position: absolute; /* Positions the hours text absolutely */
+    color: rgb(248, 113, 72); /* Sets the text color */
+    left: -85%; /* Positions it off the left side */
+    top: 485px; /* Positions it 485px from the top */
+    font-family: cursive; /* Sets the font to cursive */
+    font-size: 20px; /* Sets the font size */
+    font-weight: 100; /* Sets the font weight */
+    font-style: italic; /* Makes the font italic */
+}
+
+/* Styling for the button sections (button1) */
+button1{
+    top: 40%; /* Positions the button vertically at 40% from the top */
+    left: 40%; /* Positions the button horizontally at 40% from the left */
+    transform: translate(-50%,-50%);
+}
+
+/* Styling for the button sections (button2) */
+button2{
+    top: 40%; /* Positions the button vertically at 40% from the top */
+    left: 40%; /* Positions the button horizontally at 40% from the left */
+    transform: translate(-50%,-50%);
+}
+
+/* Styling for the button sections (button3) */
+button3{
+    top: 40%; /* Positions the button vertically at 40% from the top */
+    left: 40%; /* Positions the button horizontally at 40% from the left */
+    transform: translate(-50%,-50%);
+}
+
+/* Styling for the 'Place Order' and 'Explore Gallery' buttons */
+.btn{
+    border: 1px solid #471074de; /* Sets the border color */
+    border-radius: 20px; /* Rounds the corners */
+    padding: 5px 15px; /* Adds padding inside the button */
+    color: #f033e0ea; /* Sets the text color */
+    transition: 0.5 ease; /* Adds a transition effect */
+    font-size: 18 px; /* Sets the font size */
+    text-decoration: none; /* Removes underline from the link */
+    font-family: cursive; /* Sets the font to cursive */
+    text-align: center; /* Centers the text inside the button */
+    width: 20%; /* Centers the text inside the button */
+    top: 10%; /* Positions it 10% from the top */
+    font-weight: 100;  /* Sets the font weight */
+    position: absolute;/* Positions the button absolutely */
+    margin-left: -10%; /* Adjusts the horizontal position */
+}
+
+/* Styling for the 'Play Local Island Music' button */
+#onbtn{
+    border: 1px solid #f5bc43; /* Sets the border color */
+    border-radius: 10px; /* Rounds the corners */
+    border-style: groove; /* Applies groove border style */
+    padding: 8px 10px; /* Adds padding inside the button */
+    background-color: transparent; /* Keeps the background transparent */
+    color: #42e6d0; /* Sets the text color */
+    transition: 0.5 ease; /* Adds transition effect */
+    font-family: cursive; /* Sets the font to cursive */
+    font-style: normal; /* Sets the font style to normal */
+    font-weight: 200; /* Sets the font weight */
+    font-stretch: extra-expanded; /* Stretches the font */
+    text-decoration: none; /* Removes underline from the link */
+    text-align: center; /* Centers the text */
+    width: 30%; /* Sets the width of the button */
+    bottom: -10%;  /* Positions it 10% from the bottom */
+    position: absolute;  /* Positions the button absolutely */
+    left: 3%; /* Positions the button 3% from the left */
+    font-size: larger; /* Increases the font size */
+}
+
+/* Styling for the YouTube vlog button */
+#ytbtn{
+    border: 1px solid #471074de; /* Sets the border color */
+    border-radius: 20px; /* Rounds the corners */
+    padding: 5px 15px; /* Adds padding inside the button */
+    color: #f033e0ea; /* Sets the text color */
+    transition: 0.5 ease; /* Adds transition effect */
+    font-size: 18 px; /* Sets the font size */
+    text-decoration: none; /* Removes underline from the link */
+    font-family: cursive; /* Sets the font to cursive */
+    text-align: center; /* Centers the text */
+    width: 50%; /* Sets the width of the button */
+    top: 90%; /* Positions it 90% from the top */
+    font-weight: 100; /* Sets the font weight */
+    position: absolute; /* Positions the button absolutely */
+    margin-left: -5%;  /* Adjusts the horizontal position */
+}
+
+/* Hover effect for buttons */
+.btn:hover{
+    background-color:rgb(238, 155, 87); /* Changes background color on hover */
+    color: black; /* Changes text color to black on hover */
+}
+
+/* Styling for the submenu in the navigation */
+#onbtn:hover{
+    background-color:rgb(238, 155, 87); /* Changes background color on hover */
+    color: black; /* Changes text color to black on hover */
+}
+
+/* Hover effect for buttons */
+#ytbtn:hover{
+    background-color:rgb(238, 155, 87); /* Changes background color on hover */
+    color: black; /* Changes text color to black on hover */
+}
+
+/* Styling for the submenu in the navigation */
+.sub-menu{
+    display: none; /* Hides the submenu by default */
+    top: 6%; /* Positions the submenu 6% from the top */
+    position: relative; /* Positions the submenu relatively */
+}
+
+/* Styling for submenu items */
+.sub-menu ul{
+    position: absolute; /* Positions the submenu items absolutely */
+}
+
+/* Displays the submenu when hovering over a menu item */
+.main ul li:hover .sub-menu{
+    display: block; /* Makes the submenu visible */
+    position: absolute; /* Positions the submenu absolutely */
+    background-color: rgb1, 45, 117; /* Sets a background color for the submenu */
+    margin-top: 12px; /* Adds top margin */
+    margin-left: -8px; /* Adjusts the left margin */
+}
+
+/* Styling for each submenu item */
+.main ul li:hover .sub-menu ul{
+    display: block; /* Makes the submenu visible */
+    margin-top: 6px /* Positions the submenu 6% from the top */
+}
+
+.main ul li:hover .sub-menu ul li{
+    width: 75px; /* Sets the width of the submenu item */
+    padding: 5px; /* Adds padding */
+    border-bottom: 1px #fff; /* Adds a white border at the bottom */
+    background: transparent; /* Keeps the background transparent */
+    transition: 0.4 ease; /* Adds a transition effect */
+    text-align: left; /* Aligns the text to the left */
+    border-radius: 0px; /* Removes rounded corners */
+}
+
+/* Footer styling */
+footer {
+    position: relative; /* Positions the footer relatively */
+    bottom: 0%; /* Positions it at the bottom of the page */
+    left: 0%; /* Positions it at the left */
+    height: 10px; /* Sets the height */
+    background-color: black; /* Sets the background color to black */
+    width: 100%; /* Makes the footer take up the full width */
+    color: rgb(138, 197, 252); /* Sets the text color */
+    padding: 18px; /* Adds padding */
+}

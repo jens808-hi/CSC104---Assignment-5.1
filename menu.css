@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./big\ island.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 150px;
+}
+
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    min-height: 300px;
+    margin-right: 40px;
+    font-size: 17px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    color: rgb(205, 248, 176);
+    background-color: transparent;
+}
+
+ul li.active a{
+    color: rgb(241, 120, 239);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+ul li a:visited{
+    color: rgb(101, 215, 243);
+    background-color: transparent;
+    text-decoration: underline;
+ }
+
+.logo img{
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    width: 7%;
+    height: auto;
+    opacity: 0.7;
+}
+
+#music{
+    position: absolute;
+    bottom: 10%;
+    text-align: left;
+    border-color: #4b1b99;
+    border-radius: 5px;
+    left: 20%;
+}
+
+
+h1{
+    background-color: transparent;
+    color: rgb(3, 15, 10);
+    text-align:left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+h2{
+	color: #ededf5;
+    text-align: center;
+    margin-top: 0px;
+	font-family: serif;
+}
+
+h3{
+    color: rgb(130, 231, 231);
+    font-family: serif;
+    font-size: 22px;
+    font-weight: 200;
+    margin-top: 10%;
+}
+
+
+.hours h3{
+    position: absolute;
+    color: rgb(233, 89, 23);
+    left: -75%;
+    top: 635px;
+    font-family: serif;
+    font-size: 22px;
+    font-weight: 200;
+    margin-top: 15%;
+}
+
+button{
+    background-color: darkblue;
+    text-decoration-color: none;
+    word-spacing: 40%;
+    border-color: transparent;
+    color: rgb(18, 19, 19);
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-stretch: semi-condensed;
+    font-size: 20px;
+    transform: translate(-50%,-50%);
+}
+
+.main{
+    max-width: 1250px;
+    margin: auto;
+}
+
+
+.title{
+    position: absolute;
+    top: 13%;
+    left: 26%;
+}
+
+.title h1{
+    color: rgba(241, 109, 100, 0.877);
+    font-size: 75px;
+    border-radius: 10%;
+    text-align: left;   
+    font-stretch: ultra-expanded;
+    transform: translate(-50%,-50%);
+    font-family: fantasy;
+    opacity: 0.9;
+}
+
+button1{
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+button2{
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    display: list-item;
+    float: left;
+    margin-left: 20px;
+    min-height: 25px;
+    list-style-position: outside;
+    border: 2px solid #1e207e;
+    padding: 5px 20px;
+    color: #20482f;
+    transition: 0.5 ease;
+    font-size: 16 px;
+    text-decoration: none;
+}
+
+#onbtn{
+    border: 1px solid #f5bc43;
+    border-radius: 40px;
+    border-style: groove;
+    padding: 8px 10px;
+    background-color: transparent;
+    color: #1edf75;
+    transition: 0.5 ease;
+    font-family: cursive;
+    font-style: normal;
+    font-stretch: extra-expanded;
+    text-decoration: none;
+    text-align: center;
+    width: 30%;
+    top: 470%;   
+    position: absolute;
+    left: 190%;
+    font-size: large;
+}
+
+.btn:hover{
+    background-color:rgb(238, 155, 87);
+    color: black;
+}
+
+.onbtn:hover{
+    background-color: #fcb365;
+    color: black;
+}
+
+.btn:visited{
+    color: rgb(16, 157, 54);
+    background-color: transparent;
+    text-decoration: underline;
+ }
+
+ .sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+}
+
+.sub-menu ul{
+    position: absolute;
+}
+
+
+.main ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb1, 45, 117;
+    margin-top: 12px;
+    margin-left: -8px;
+}
+
+.main ul li:hover .sub-menu ul{
+    display: block;
+    margin-top: 6px
+}
+
+.main ul li:hover .sub-menu ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px ;
+}
+footer {
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    height: 22px;
+    background-color:transparent;
+    width: 100%;
+    color: rgb(10, 10, 10);;
+    padding: 10px;
+}
